@@ -1,0 +1,17 @@
+{
+  "name": "dodelkin",
+  "version": "1.0.0",
+  "description": "WEB-Page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js &" ,
+    "stop": "echo Stopping the server..."
+
+  },
+  "author": "Nefedov Kirill",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.18.2"
+  }
+}
